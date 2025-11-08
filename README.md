@@ -44,3 +44,22 @@ To contribute:
 - Create a new branch (git checkout -b feature/my-feature).
 - Make your changes and commit (git commit -m "Add new feature").
 - Push to your branch and open a Pull Request.
+## 🧪 Example Use Cases
+
+- Corporate File Handling: Automatically downloads daily reports and categorizes them by project.
+- Invoice Management: Detects PDF invoices from specific senders and renames them systematically.
+-  Research Teams: Organizes experiment data or document updates shared via email.
+-   Personal Workflow: Automatically sorts media or important attachments from your inbox.
+
+## 🧩 Future Enhancements
+
+ - Integrate AI-based email intent understanding (summarize and auto-respond).
+ - Add file content classification using NLP and OCR.
+ - Web-based dashboard for real-time monitoring.
+ - Integration with Google Drive / Dropbox for auto-sync.
+
+## ✉️ Contact
+
+## 👤 Author: Mohan Kumar Kuriminelli (MRMADMAX217)
+
+## 📧 Email: mohan.kuriminelli@gmail.com
