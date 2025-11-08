@@ -1,0 +1,30 @@
+Flask==3.0.3
+requests==2.32.3
+python-dotenv==1.0.1
+
+mcp-agent==0.2.5
+
+# fastagents installed manually from local repo (see README)
+
+google-api-python-client==2.149.0
+google-auth==2.35.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+
+dateparser==1.2.0
+
+certifi>=2024.7.4
+charset-normalizer>=3.3.2
+urllib3>=2.2.3
+idna>=3.7
+
+rich==13.9.4
+colorama==0.4.6
+
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+## after all this installation run this code too
+##  pip install --upgrade mcp-agent fast-agent-mcp fastagents

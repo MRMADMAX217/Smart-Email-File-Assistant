@@ -1,0 +1,171 @@
+# ======================================================
+# 🧠 General Python ignores
+# ======================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pdb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ======================================================
+# 🧰 Virtual environments
+# ======================================================
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+.pytest_cache/
+__pycache__/
+
+# ======================================================
+# 🗝️ Environment & secret config files
+# ======================================================
+# Local environment variables (API keys, tokens)
+.env
+.env.*
+*.env
+
+# FastAgent / MCP configuration
+fastagent.config.yaml
+fastagent.config.yml
+config.yaml
+config.yml
+
+# Google API credentials
+token.json
+token_*.json
+*.keys.json
+*.pem
+*.p12
+*.crt
+*.der
+credentials.json
+client_secret*.json
+# If you store Gmail/Calendar OAuth tokens here
+.gcp-oauth.keys.json
+gmail-token.json
+~/.gmail-mcp/
+~/.credentials/
+
+# ======================================================
+# 🪄 Project-specific ignores
+# ======================================================
+
+# Local logs and caches
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+logs/
+logging/
+__logs__/
+
+# Temporary or working directories
+tmp/
+temp/
+.cache/
+.cache_dir/
+test_output/
+output/
+reports/
+
+# ======================================================
+# 🧩 Node / Frontend (in case you add a web UI later)
+# ======================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.next/
+out/
+
+# ======================================================
+# 🧠 Editor & OS-specific
+# ======================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# ======================================================
+# 🧮 Jupyter / Notebooks (if any)
+# ======================================================
+.ipynb_checkpoints
+*.ipynb
+notebooks/.ipynb_checkpoints
+
+# ======================================================
+# 🧩 Compiled / export data
+# ======================================================
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.hdf5
+*.xlsx
+*.xls
+*.pdf
+
+# ======================================================
+# 🧱 Project structure specific ignores
+# ======================================================
+# Project root files
+requirements_dev.txt
+secrets/
+private/
+debug/
+uploads/
+backups/
+
+# ======================================================
+# 🧠 Exception: Allow sample envs or templates
+# ======================================================
+!.env.example
+!config.example.yaml
